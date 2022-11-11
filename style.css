@@ -25,3 +25,35 @@
 	margin-right: 10px;
 	border-radius: 50%;
 }
+
+/* 
+ Navigation
+*/
+.navbar-nav .nav-item .nav-link {
+	font-weight: 600;
+	color: rgb(222, 224, 225);
+	text-transform: uppercase;
+	padding-left: 15px;
+	padding-right: 15px;
+	
+	transition: color 0.5s;
+}
+.navbar-nav .nav-item .nav-link.active {
+	color: rgb(255, 255, 255);
+} 
+.navbar-nav .nav-item .nav-link:hover {
+	color: rgb(255, 255, 255);
+}
+.navbar-collapse.show {
+	background-color: rgba(0,0,0, .7);
+}
+
+/* 
+ Navigatioion 
+*/
+
+.navbar-brand, .navbar-brand:hover {
+	font-weight: 600;
+	font-size: 20px;
+	color: #ffffff;
+}
